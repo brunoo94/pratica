@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    background-color: lightgray;
+}
+
+header {
+    display: flex;
+    height: 250px;
+    background-color: #fff;
+    box-shadow: inset 0px -15px 10px -10px rgba(0, 0, 0, 0.637)
+}
+
+header > h1 {
+    margin: auto;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+img#logo {
+    float: left;
+}
+
+main {
+    height: 75vh;
+    background: black url(../imagens/campo-paisagem.png) no-repeat center center;
+    background-size: cover;
+    padding: 10px;
+}
+
+main > div#container {
+    height: 70vh;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+}
+
+div#caixa {
+    width: 340px;
+    height: 300px;
+    background-color: #ffffff98;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+main > div#container > div#caixa > form {
+    padding: 20px;
+}
+
+form h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+form div#cx-login {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+form div#cx-senha {
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#ilogin {
+    padding: 4px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+#ipass {
+    padding: 4px;
+    border-radius: 3px;
+    border: 1px solid black
+}
+
+#botao {
+    padding: 5px;
+}
+
+#submeter {
+    text-align: center;
+}
+
+footer {
+    height: 30px;
+}
+
+footer > p {
+    text-align: center;
+    padding: 10px;
+}
+
+footer > p > a {
+    text-decoration: none;
+}
